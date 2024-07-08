@@ -3,6 +3,6 @@ const element = document.querySelectorAll("input");
 
 for (const index of element) {
   index.addEventListener("click", () => {
-    body.classList = index.value;
+    body.classList.toggle(index.value);
   });
 }
