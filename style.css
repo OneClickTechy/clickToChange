@@ -13,10 +13,11 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    background-color: grey;
 }
 
 /*child decoration*/
-div{
+input{
     width: 100px;
     height: 100px;
     display: flex;
