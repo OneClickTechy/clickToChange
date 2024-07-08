@@ -1,1 +1,8 @@
-console.log(document.getElementById("red"));
+const body = document.querySelector("body");
+const element = document.querySelectorAll("input");
+
+for (const index of element) {
+  index.addEventListener("click", () => {
+    body.classList = index.value;
+  });
+}
